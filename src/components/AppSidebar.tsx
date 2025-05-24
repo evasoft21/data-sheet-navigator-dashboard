@@ -1,5 +1,5 @@
 
-import { FileText, Database, Upload, History } from "lucide-react"
+import { FileText, Database, MessageCircle } from "lucide-react"
 import { Link, useLocation } from "react-router-dom"
 import {
   Sidebar,
@@ -25,6 +25,12 @@ const menuItems = [
     url: "/datasheets", 
     icon: Database,
     description: "Technical Data Sheets"
+  },
+  {
+    title: "Chat",
+    url: "/chat",
+    icon: MessageCircle,
+    description: "AI Assistant Chat"
   }
 ]
 

@@ -84,5 +84,97 @@
         "Fail Position": "Fail Closed"
       }
     }
+  ],
+  "chats": [
+    {
+      "id": "1",
+      "title": "PID Analysis Discussion",
+      "createdAt": "2024-05-24T10:30:00Z",
+      "lastMessage": "Can you explain the pressure ratings in diagram PID-001-Rev-A?",
+      "messages": [
+        {
+          "id": "1",
+          "content": "Hello! I need help analyzing the Process Flow Diagram Rev A.",
+          "sender": "user",
+          "timestamp": "2024-05-24T10:30:00Z"
+        },
+        {
+          "id": "2",
+          "content": "I'd be happy to help you analyze the Process Flow Diagram Rev A. I can see it's for a Distillation Column with a design pressure of 150 PSI and design temperature of 250°F. What specific aspects would you like me to explain?",
+          "sender": "assistant",
+          "timestamp": "2024-05-24T10:31:15Z"
+        },
+        {
+          "id": "3",
+          "content": "Can you explain the pressure ratings in diagram PID-001-Rev-A?",
+          "sender": "user",
+          "timestamp": "2024-05-24T10:32:30Z"
+        }
+      ]
+    },
+    {
+      "id": "2", 
+      "title": "Pump Specifications Query",
+      "createdAt": "2024-05-23T14:15:00Z",
+      "lastMessage": "What's the motor power requirement for pump P-101?",
+      "messages": [
+        {
+          "id": "1",
+          "content": "I'm looking at the pump datasheet for P-101. What's the motor power requirement?",
+          "sender": "user",
+          "timestamp": "2024-05-23T14:15:00Z"
+        },
+        {
+          "id": "2",
+          "content": "Based on the pump specifications for P-101, the motor power requirement is 25 HP. This centrifugal pump operates at 460V, 3-Phase and handles a flow rate of 500 GPM with a total head of 150 ft.",
+          "sender": "assistant",
+          "timestamp": "2024-05-23T14:16:20Z"
+        },
+        {
+          "id": "3",
+          "content": "What's the motor power requirement for pump P-101?",
+          "sender": "user", 
+          "timestamp": "2024-05-23T14:17:45Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Control Valve Discussion",
+      "createdAt": "2024-05-22T09:45:00Z",
+      "lastMessage": "Perfect, thank you for the detailed explanation!",
+      "messages": [
+        {
+          "id": "1",
+          "content": "Can you tell me about the control valve CV-201?",
+          "sender": "user",
+          "timestamp": "2024-05-22T09:45:00Z"
+        },
+        {
+          "id": "2",
+          "content": "Control valve CV-201 is a 6-inch pneumatic actuated valve manufactured by Valve Solutions Corp. It has a Cv value of 85, is Class 300 pressure rated, made of Carbon Steel, and is configured to fail closed. The model number is ABC-456-789.",
+          "sender": "assistant",
+          "timestamp": "2024-05-22T09:46:30Z"
+        },
+        {
+          "id": "3",
+          "content": "What does 'fail closed' mean in this context?",
+          "sender": "user",
+          "timestamp": "2024-05-22T09:47:15Z"
+        },
+        {
+          "id": "4",
+          "content": "'Fail closed' means that if there's a loss of power or control signal to the pneumatic actuator, the valve will automatically move to the closed position. This is a safety feature to prevent uncontrolled flow in case of system failure.",
+          "sender": "assistant",
+          "timestamp": "2024-05-22T09:48:00Z"
+        },
+        {
+          "id": "5",
+          "content": "Perfect, thank you for the detailed explanation!",
+          "sender": "user",
+          "timestamp": "2024-05-22T09:48:30Z"
+        }
+      ]
+    }
   ]
 }

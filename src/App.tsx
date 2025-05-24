@@ -9,6 +9,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import Dashboard from "./pages/Dashboard";
 import PID from "./pages/PID";
 import Datasheets from "./pages/Datasheets";
+import Chat from "./pages/Chat";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/pid" element={<PID />} />
                 <Route path="/datasheets" element={<Datasheets />} />
+                <Route path="/chat" element={<Chat />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
